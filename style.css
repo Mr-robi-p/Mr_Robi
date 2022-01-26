@@ -1,7 +1,56 @@
 body{
+  background-image: url("images/Backgorund/t1.jpg");
   margin: 0;
-  padding: o;
+  padding: 0;
+  background-repeat: no-repeat;
+  background-position:center;
+  background-attachment: fixed;
+  
 }
-h1{
-  font-family: 'Oswald', sans-serif;
+/* ====hader_area========= */
+#manu_area{
+  width: 100%;
+  height: auto;
 }
+.container{
+  width: 90%;
+  margin:0 auto;
+}
+.logo{
+  width: 20%;
+  height:100px;
+  margin: 0;
+  padding: 0;
+  float: left;
+  position: relative;
+}
+.logo img{
+  width: 100%;
+  height: 100px
+}
+.manu_box{
+  width: 60%;
+  position: absolute;
+  top: 30px;
+  left: 30%;
+}
+.manu_box ul{
+  padding: 0;
+  margin: 0;
+}
+.manu_box ul  li {
+list-style: none;
+float:left;
+}
+.manu_box ul li a{
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  background-color: blueviolet;
+  padding: 10px 20px;
+  margin-left: 5px;
+  border-radius: 2px;
+}
+
